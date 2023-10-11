@@ -60,8 +60,45 @@
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.5625rem;
-    border-radius: 5px;
+    border-radius: $border-radius--sm;
     border: none;
     outline: none;
+  }
+
+  // MOBILE MENU STYLES
+  &-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+
+    svg {
+      cursor: pointer;
+    }
+
+    &_container {
+      min-width: 13.125rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+
+      text-align: end;
+      background: $color-footer;
+      padding: 2rem;
+      position: absolute;
+      top: 2.5rem;
+      right: 0;
+      margin-top: 1rem;
+      border-radius: $border-radius--sm;
+      box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+
+      p {
+        margin: 1rem 0;
+      }
+
+      &-links-sign {
+        display: none;
+      }
+    }
   }
 }
