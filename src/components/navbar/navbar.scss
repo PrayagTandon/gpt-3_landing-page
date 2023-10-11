@@ -19,5 +19,22 @@
         height: 1rem;
       }
     }
+
+    &_container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-links-container p,
+  &-sign p,
+  &-menu_container p {
+    color: #fff;
   }
 }
