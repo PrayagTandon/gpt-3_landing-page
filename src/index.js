@@ -1,4 +1,5 @@
 import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -10,4 +11,5 @@ root.render(
   </React.StrictMode>
 );
 
+// ReactDOM.render(<App />, document.getElementById('root'));
 reportWebVitals();
