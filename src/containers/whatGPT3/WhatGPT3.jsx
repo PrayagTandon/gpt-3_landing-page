@@ -1,5 +1,5 @@
 import React from 'react';
-import './whatGPT3.css';
+import './whatGPT3.scss';
 
 const WhatGPT3 = () => {
     return (
