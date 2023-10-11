@@ -3,7 +3,7 @@
 
 .gpt3__navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   padding: 2rem 6rem;
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 4rem;
 
     &_logo {
       margin-right: 2rem;
@@ -51,14 +52,16 @@
 
   &-sign button,
   &-menu_container button {
+    cursor: pointer;
     padding: 0.5rem 1rem;
     color: $color-white;
     background: $color__btn-background;
     font-family: $font-primary;
     font-weight: 500;
-    left: 72.0625rem;
-    top: 3.4375rem;
-
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
     border-radius: 5px;
+    border: none;
+    outline: none;
   }
 }
