@@ -27,7 +27,13 @@ $color-blog: #042c54;
 $color-text: #81afdd;
 $color-subtext: #ff8a71;
 $color-white: #fff;
+$color__btn-background--light: #ff5a36;
 $color__btn-background: #FF4820;
+$color__btn-background--dark: #e6411d;
 
 // BORDER
 $border-radius--sm: 5px;
+
+
+// TRANSITIONS
+$transition--sm: all .4s cubic-bezier(0.215, 0.610, 0.355, 1);

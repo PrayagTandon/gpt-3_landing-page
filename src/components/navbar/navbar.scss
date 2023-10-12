@@ -63,6 +63,7 @@
     border-radius: $border-radius--sm;
     border: none;
     outline: none;
+    transition: $transition--sm;
   }
 
   // MOBILE MENU STYLES
@@ -103,16 +104,26 @@
   }
 
   // HOVER AND ACTIVE STATES CSS CODE
-  &-links_container p {
+  &-links_container p,
+  &-menu_container-links p {
 
     a {
-      transition: all .4s cubic-bezier(0.215, 0.610, 0.355, 1);
+      transition: $transition--sm;
     }
 
     a:hover,
     a:active {
       color: rgba($color-white , .4);
       // text-decoration: underline;
+    }
+  }
+
+  &-sign,
+  &-menu_container {
+
+    button:hover,
+    button.active {
+      background-color: $color__btn-background--light;
     }
   }
 }
