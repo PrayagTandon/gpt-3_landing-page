@@ -101,4 +101,18 @@
       }
     }
   }
+
+  // HOVER AND ACTIVE STATES CSS CODE
+  &-links_container p {
+
+    a {
+      transition: all .4s cubic-bezier(0.215, 0.610, 0.355, 1);
+    }
+
+    a:hover,
+    a:active {
+      color: rgba($color-white , .4);
+      // text-decoration: underline;
+    }
+  }
 }
