@@ -127,3 +127,36 @@
     }
   }
 }
+
+// ADDING MEDIA QUERIES
+
+.gpt3__navbar {
+
+  // TABLET WIDTH
+  @include respond-to('lg') {
+    padding: 2rem 4rem;
+  }
+
+  // MOBILE WIDTH
+  @include respond-to('sm') {
+    padding: 2rem;
+  }
+
+  &-links_container {
+    @include respond-to('xl') {
+      display: none;
+    }
+  }
+
+  &-menu {
+    @include respond-to('xl') {
+      display: flex;
+    }
+  }
+
+  &-sign {
+    @include respond-to('sm') {
+      display: none;
+    }
+  }
+}

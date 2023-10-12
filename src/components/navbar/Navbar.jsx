@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
+import '../../App.scss';
 import './navbar.scss';
 
 // USING BEM -> BLOCK ELEMENT MODIFIER CSS Class name Notation
@@ -44,7 +45,7 @@ const Navbar = () => {
                     : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className='gpt3__navbar-menu_container scal-up-center'>
+                    <div className='gpt3__navbar-menu_container scale-up-center'>
                         <div className='gpt3__navbar-menu_container-links'>
                             <Menu />
                             <div className="gpt3__navbar-menu_container-links-sign">
