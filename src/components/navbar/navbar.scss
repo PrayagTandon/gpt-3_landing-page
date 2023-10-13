@@ -152,6 +152,18 @@
     @include respond-to('xl') {
       display: flex;
     }
+
+    &_container {
+      @include respond-to('sm') {
+        top: 20px;
+      }
+
+      &-links-sign {
+        @include respond-to('sm') {
+          display: block;
+        }
+      }
+    }
   }
 
   &-sign {
