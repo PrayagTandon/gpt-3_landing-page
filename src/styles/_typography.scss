@@ -1,0 +1,19 @@
+@import './mixins';
+@import './variables';
+
+.heading {
+
+    &__primary {
+        font-family: $font-primary;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 75px;
+        letter-spacing: -2.48px;
+
+        background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
