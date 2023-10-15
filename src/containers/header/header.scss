@@ -37,6 +37,11 @@
                 font-size: 1rem;
                 line-height: 1.5rem;
             }
+
+            @include respond-to('xs__1') {
+                font-size: .9rem;
+                line-height: 1.5rem;
+            }
         }
 
         &__input {
@@ -100,6 +105,12 @@
                     font-size: 1rem;
                     line-height: 1.5rem;
                 }
+
+                @include respond-to('xs__1') {
+                    font-size: .9rem;
+                    line-height: 1rem;
+                    font-weight: bold;
+                }
             }
         }
 
@@ -132,6 +143,10 @@
 
                 @include respond-to('lg') {
                     font-size: .9rem;
+                }
+
+                @include respond-to('xs__1') {
+                    font-size: .75rem;
                 }
             }
         }
