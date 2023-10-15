@@ -51,6 +51,8 @@ a {
 .section {
   /* lG -  Media queries for medium size devices */
 
+  /* SM - Media queries for mobile devices */
+
   &__padding {
     padding: 4rem 6rem;
 
@@ -102,17 +104,5 @@ a {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
-  }
-}
-
-
-/* Media queries for mobile devices */
-@media screen and (max-width: 35rem) {
-  .section_padding {
-    padding: 4rem 2rem;
-  }
-
-  .section_margin {
-    margin: 4rem 2rem;
   }
 }

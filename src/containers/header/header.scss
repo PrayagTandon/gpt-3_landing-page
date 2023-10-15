@@ -89,6 +89,14 @@
                     background: $color__btn-background--light
                 }
             }
+
+            input,
+            button {
+                @include respond-to('lg') {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
         }
 
         &__people {
@@ -98,6 +106,11 @@
             align-items: center;
             margin-top: 2rem;
             gap: 1rem;
+
+            @include respond-to('lg') {
+                flex-direction: column;
+                gap: .5rem;
+            }
 
             img {
                 width: 11.361625rem;
@@ -112,6 +125,10 @@
                 color: $color-white;
                 text-align: center;
                 margin: 0rem;
+
+                @include respond-to('lg') {
+                    font-size: .9rem;
+                }
             }
         }
     }
