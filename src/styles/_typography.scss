@@ -14,5 +14,10 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+
+        @include respond-to('lg') {
+            font-size: 2.8rem;
+            line-height: 3.75rem;
+        }
     }
 }
