@@ -1,8 +1,8 @@
 import React from 'react';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
-import './header.scss';
+// import ai from '../../assets/ai.png';
 import '../../styles/_typography.scss';
+import './header.scss';
 const Header = () => {
     return (
         <header className='gpt3__header section__padding' id='home'>
@@ -25,11 +25,11 @@ const Header = () => {
                 </div>
 
                 {/* HEADER IMAGE */}
-                <div className='gpt3__header-image'>
+                {/* <div className='gpt3__header-image'>
                     <img
                         src={ai}
                         alt="ai" />
-                </div>
+                </div> */}
             </div>
         </header>
     )
