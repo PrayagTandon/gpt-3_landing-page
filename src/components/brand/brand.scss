@@ -1,0 +1,22 @@
+@import '../../styles/mixins';
+@import '../../styles/typography';
+@import '../../styles/variables';
+
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // gap: 1rem;
+
+    div {
+        flex: 1;
+        max-width: 9.375rem;
+        min-width: 7.5rem;
+        margin: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
