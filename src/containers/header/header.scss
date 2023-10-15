@@ -88,6 +88,10 @@
                     cursor: pointer;
                     background: $color__btn-background--light
                 }
+
+                @include respond-to('sm') {
+                    flex: 1;
+                }
             }
 
             input,

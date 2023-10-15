@@ -19,5 +19,10 @@
             font-size: 2.8rem;
             line-height: 3.75rem;
         }
+
+        @include respond-to('xs__1') {
+            font-size: 2.2rem;
+            line-height: 3rem;
+        }
     }
 }
