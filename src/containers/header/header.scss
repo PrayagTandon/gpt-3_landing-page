@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: row;
 
+    @include respond-to('xl') {
+        flex-direction: column;
+    }
+
     // CONTENT STYLES
 
     &-content {
@@ -15,6 +19,10 @@
         align-items: flex-start;
         flex-direction: column;
         margin-right: 5rem;
+
+        @include respond-to('xl') {
+            margin: 0 0 3rem;
+        }
 
         p {
             font-family: $font-primary;
