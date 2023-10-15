@@ -5,13 +5,12 @@
 
     &__primary {
         font-family: $font-primary;
-        font-size: 62px;
-        font-style: normal;
+        font-size: 3.875rem;
         font-weight: 800;
-        line-height: 75px;
-        letter-spacing: -2.48px;
+        line-height: 4.6875rem;
+        letter-spacing: -0.04em;
 
-        background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+        background: linear-gradient(90deg, $color__heading--primary 1.84%, $color__heading--secondary 102.67%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

@@ -1,2 +1,17 @@
 @import '../../styles/mixins';
 @import '../../styles/variables';
+
+.gpt3__header {
+    display: flex;
+    flex-direction: row;
+
+    &-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        margin-right: 5rem;
+    }
+}

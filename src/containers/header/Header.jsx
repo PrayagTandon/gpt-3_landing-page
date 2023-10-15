@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.scss';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
+import './header.scss';
 import '../../styles/_typography.scss';
 const Header = () => {
     return (
