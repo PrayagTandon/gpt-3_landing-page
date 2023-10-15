@@ -1,9 +1,12 @@
 @import '../../styles/mixins';
 @import '../../styles/variables';
+@import '../../styles/typography';
 
 .gpt3__header {
     display: flex;
     flex-direction: row;
+
+    // CONTENT STYLES
 
     &-content {
         flex: 1;
@@ -56,7 +59,7 @@
 
                 font-family: $font-primary;
                 font-size: 1.25rem;
-                font-weight: bold;
+                font-weight: 500;
                 line-height: 1.6875rem;
                 background: $color__btn-background;
                 color: $color-white;
@@ -73,6 +76,44 @@
                     background: $color__btn-background--light
                 }
             }
+        }
+
+        &__people {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 2rem;
+            gap: 1rem;
+
+            img {
+                width: 11.361625rem;
+                height: 2.375rem;
+                flex-shrink: 0;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: .75rem;
+                line-height: 2.375rem;
+                color: $color-white;
+                text-align: center;
+                margin: 0rem;
+            }
+        }
+    }
+
+    // IMAGE STYLES
+
+    &-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            height: 100%;
         }
     }
 }

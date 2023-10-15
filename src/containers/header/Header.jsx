@@ -1,6 +1,6 @@
 import React from 'react';
 import people from '../../assets/people.png';
-// import ai from '../../assets/ai.png';
+import ai from '../../assets/ai.png';
 import '../../styles/_typography.scss';
 import './header.scss';
 const Header = () => {
@@ -24,12 +24,13 @@ const Header = () => {
                     <p>1,600 people requested access a visit in last 24 hours</p>
                 </div>
 
-                {/* HEADER IMAGE */}
-                {/* <div className='gpt3__header-image'>
-                    <img
-                        src={ai}
-                        alt="ai" />
-                </div> */}
+            </div>
+
+            {/* HEADER IMAGE */}
+            <div className='gpt3__header-image'>
+                <img
+                    src={ai}
+                    alt="ai" />
             </div>
         </header>
     )
