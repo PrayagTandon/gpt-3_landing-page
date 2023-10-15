@@ -11,7 +11,35 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-
         margin-right: 5rem;
+
+        p {
+            font-family: $font-primary;
+            color: $color-text;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.6875rem;
+            margin-top: 1.5rem;
+        }
+
+        &__input {
+            width: 100%;
+            margin: 2rem 0 1rem;
+            display: flex;
+
+            input {
+                flex: 2;
+                width: 100%;
+                font-family: $font-primary;
+                background: $color-input;
+                color: $color-input--text;
+                border-radius: 5px 0px 0px 5px;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.6875rem;
+            }
+        }
     }
 }
