@@ -1,4 +1,6 @@
 $breakpoints: (
+    'xs__2': (max-width: 23.4375rem, ),
+    // ~375px
     'xs__1': (max-width: 30rem, ),
     // ~ 480px
     'sm': (max-width: 34.375rem, ),
@@ -7,6 +9,8 @@ $breakpoints: (
     // ~ 700px
     'xl': (max-width: 68.5rem, ),
     // 1096px
+    '2xl': (max-width: 75rem, ),
+    // ~ 1200px
 );
 
 /// Responsive breakpoint manager

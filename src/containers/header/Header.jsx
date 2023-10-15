@@ -21,7 +21,7 @@ const Header = () => {
                     <img
                         src={people}
                         alt="people images" />
-                    <p>1,600 people requested access a visit in last 24 hours</p>
+                    <p>1,600+ people requested access a visit in last 24 hours</p>
                 </div>
 
             </div>
