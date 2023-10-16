@@ -3,7 +3,7 @@ import './whatGPT3.scss';
 
 const WhatGPT3 = () => {
     return (
-        <div>WhatGPT3</div>
+        <section className='gpt3__whatgpt3 section__margin' id='wgpt3'></section>
     )
 }
 
