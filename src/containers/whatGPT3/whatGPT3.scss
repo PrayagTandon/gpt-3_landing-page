@@ -30,5 +30,13 @@
 
     &-feature {
         display: flex;
+
+        .gpt3__features-container__feature {
+            margin: 0;
+
+            &-text {
+                max-width: 43.75rem;
+            }
+        }
     }
 }
