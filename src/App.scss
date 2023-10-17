@@ -51,6 +51,7 @@ a {
 // HEADING
 .heading {
   font-family: $font-primary;
+  font-weight: 800;
   background: linear-gradient(90deg, $color__heading--primary 1.84%, $color__heading--secondary 102.67%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -58,7 +59,6 @@ a {
 
   &__primary {
     font-size: 3.2rem;
-    font-weight: 800;
     line-height: 4.6875rem;
     letter-spacing: -0.04em;
 
@@ -76,6 +76,14 @@ a {
       font-size: 2.2rem;
       line-height: 3rem;
     }
+  }
+
+  &__secondary {
+    font-size: 2.125rem;
+    line-height: 2.8125rem;
+    color: #FFF;
+    max-width: 31.875rem;
+    /* 132.353% */
   }
 }
 
