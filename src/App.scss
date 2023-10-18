@@ -99,6 +99,7 @@ a {
 // PARAGRAPH
 
 .paragraph-component {
+  display: inline-block;
   font-family: $font-primary;
   color: $color-subtext;
   font-size: 1rem;
