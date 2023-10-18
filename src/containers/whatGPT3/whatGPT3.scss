@@ -69,24 +69,6 @@
             align-items: flex-start;
             margin-bottom: 0rem;
         }
-
-        p {
-            font-family: $font-primary;
-            color: $color-subtext;
-            font-size: 1rem;
-            font-weight: 500;
-            line-height: 1.875rem;
-            transition: $transition--sm;
-
-            @include respond-to('lg__2') {
-                margin-top: 1rem;
-            }
-
-            &:hover {
-                cursor: pointer;
-                text-decoration: underline;
-            }
-        }
     }
 
     &-container {

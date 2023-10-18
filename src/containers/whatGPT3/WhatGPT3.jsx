@@ -1,5 +1,6 @@
 import React from 'react';
 import './whatGPT3.scss';
+import '../../App.scss'
 import { Feature } from '../../components';
 
 const WhatGPT3 = () => {
@@ -15,7 +16,7 @@ const WhatGPT3 = () => {
                 <h2 className='heading heading__secondary'>
                     The possibilities are beyond your imagination
                 </h2>
-                <p>Explore The Library</p>
+                <p className='paragraph-component'>Explore The Library</p>
             </div>
 
             <div className='gpt3__whatgpt3-container'>
