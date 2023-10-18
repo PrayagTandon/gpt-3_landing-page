@@ -1,6 +1,7 @@
 import React from 'react';
 import './features.scss';
 import '../../App.scss';
+import { Feature } from '../../components';
 
 const featuresData = [
     {
@@ -34,7 +35,10 @@ const Features = () => {
 
             <div className='gpt3__features-container'>
                 {featuresData.map((item, index) => (
-                    
+                    <Feature
+                        title={item.title}
+                        text={item.text}
+                        key={item.title + index} />
                 ))}
             </div>
         </section>
