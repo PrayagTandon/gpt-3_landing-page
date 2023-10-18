@@ -83,7 +83,16 @@ a {
     line-height: 2.8125rem;
     color: #FFF;
     max-width: 31.875rem;
-    /* 132.353% */
+
+    @include respond-to('lg') {
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
+
+    @include respond-to('xs__2') {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
   }
 }
 
