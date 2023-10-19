@@ -21,6 +21,11 @@
         text-align: left;
         margin-right: 5rem;
 
+        @include respond-to('xl') {
+            gap: 1rem;
+            margin: 0 0 2rem;
+        }
+
         h2 {
             @include respond-to('xl') {
                 max-width: none;
@@ -38,6 +43,21 @@
         h3 {
             line-height: 2.5rem !important;
             letter-spacing: -.2px !important;
+
+            @include respond-to('lg') {
+                font-size: 1.3rem !important;
+                line-height: 2rem !important;
+            }
+        }
+    }
+}
+
+.gpt3__features-container {
+
+    .gpt3__features-container__feature {
+        @include respond-to('xs__1') {
+            flex-direction: column;
+            gap: 1rem;
         }
     }
 }
