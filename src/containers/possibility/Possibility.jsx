@@ -3,7 +3,7 @@ import './possibility.scss';
 
 const Possibility = () => {
     return (
-        <div>Possibility</div>
+        <section></section>
     )
 }
 
