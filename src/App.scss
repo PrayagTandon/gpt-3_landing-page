@@ -94,6 +94,14 @@ a {
       line-height: 2rem;
     }
   }
+
+  &__quatenary {
+    color: $color-small-heading;
+    font-family: $font-primary;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+  }
 }
 
 // PARAGRAPH
