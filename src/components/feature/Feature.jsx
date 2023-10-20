@@ -1,5 +1,6 @@
 import React from 'react';
 import './feature.scss';
+import '../../App.scss';
 
 // The feature component takes title and text as props
 const Feature = ({ title, text }) => {

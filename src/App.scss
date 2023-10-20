@@ -126,6 +126,19 @@ a {
       transform: translateY(-.25rem);
     }
   }
+
+  &--blue {
+    color: $color-text;
+    font-family: $font-primary;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+
+    @include respond-to('sm') {
+      font-size: .75rem;
+      line-height: 1.5rem;
+    }
+  }
 }
 
 
