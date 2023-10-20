@@ -98,29 +98,33 @@ a {
 
 // PARAGRAPH
 
-.paragraph-component {
-  display: inline-block;
-  font-family: $font-primary;
-  color: $color-subtext;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.875rem;
-  transition: $transition--sm;
-  padding-bottom: 0px 4px 3px 4px;
-  border-bottom: 1px solid $color-subtext;
+.paragraph__component {
 
-  @include respond-to('lg__2') {
-    margin-top: 1rem;
-  }
+  &--red {
 
-  &:hover {
-    cursor: pointer;
-    transform: translateY(-.5rem);
-    border-bottom: none;
-  }
+    display: inline-block;
+    font-family: $font-primary;
+    color: $color-subtext;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    transition: $transition--sm;
+    padding-bottom: 0px 4px 3px 4px;
+    border-bottom: 1px solid $color-subtext;
 
-  &:active {
-    transform: translateY(-.25rem);
+    @include respond-to('lg__2') {
+      margin-top: 1rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-.5rem);
+      border-bottom: none;
+    }
+
+    &:active {
+      transform: translateY(-.25rem);
+    }
   }
 }
 

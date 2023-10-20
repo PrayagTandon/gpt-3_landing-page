@@ -30,7 +30,7 @@ const Features = () => {
                 <h2 className='heading heading__secondary'>
                     The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
                 </h2>
-                <p className='paragraph-component'>Request Early Access to Get Started</p>
+                <p className='paragraph__component--red'>Request Early Access to Get Started</p>
             </div>
 
             <div className='gpt3__features-container'>

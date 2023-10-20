@@ -16,7 +16,7 @@ const WhatGPT3 = () => {
                 <h2 className='heading heading__secondary'>
                     The possibilities are beyond your imagination
                 </h2>
-                <p className='paragraph-component'>Explore The Library</p>
+                <p className='paragraph__component--red'>Explore The Library</p>
             </div>
 
             <div className='gpt3__whatgpt3-container'>
