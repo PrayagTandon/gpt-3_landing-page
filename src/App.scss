@@ -136,6 +136,7 @@ a {
   }
 
   &--blue {
+    display: inline-block;
     color: $color-text;
     font-family: $font-primary;
     font-size: .875rem;

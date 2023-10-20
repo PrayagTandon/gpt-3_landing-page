@@ -18,7 +18,7 @@ const Possibility = () => {
                     The possibilities are beyond your imagination
                 </h2>
 
-                <p className='paragraph__component--blue'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                <p className='paragraph__component--blue gpt3__possibility-content__text'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
                 <p className="paragraph__component--red">
                     Request Early Access to Get Started

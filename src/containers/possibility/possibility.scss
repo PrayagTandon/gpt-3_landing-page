@@ -4,7 +4,7 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: space-between;
 
     &-image {
         flex: 1;
@@ -25,5 +25,10 @@
         justify-content: flex-end;
         align-items: flex-start;
         gap: 2rem;
+        margin-bottom: 4rem;
+
+        &__text {
+            max-width: 75%;
+        }
     }
 }
