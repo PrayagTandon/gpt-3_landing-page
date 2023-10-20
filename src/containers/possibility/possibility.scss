@@ -6,6 +6,11 @@
     flex-direction: row;
     justify-content: space-between;
 
+    @include respond-to('lg__2') {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     &-image {
         flex: 1;
         display: flex;
