@@ -44,7 +44,20 @@
             font-size: 1.125rem;
             font-weight: 700;
             line-height: 1.875rem;
-            padding: 1rem 2rem;
+            padding: .75rem 1.5rem;
+
+            border: none;
+            outline: none;
+            min-width: 9.375rem;
+            transition: $transition--sm;
+
+            &:hover,
+            &:active {
+                cursor: pointer;
+                background-color: $color-white;
+                color: $color-black;
+                transform: translateY(-.2rem);
+            }
         }
     }
 }
