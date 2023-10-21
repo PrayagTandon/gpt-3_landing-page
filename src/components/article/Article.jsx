@@ -1,9 +1,15 @@
 import React from 'react';
 import './article.scss';
 
-const Article = () => {
+const Article = ({ imgURL }) => {
     return (
-        <div>Article</div>
+        <section className='gpt3__blog-container_article'>
+            <div className='gpt3__blog-container_article-image'>
+                <img
+                    src={imgURL}
+                    alt="blog image" />
+            </div>
+        </section>
     )
 }
 
