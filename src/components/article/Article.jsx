@@ -20,6 +20,7 @@ const Article = ({ imgURL, date, title }) => {
                     <a href="#cta">Read full article</a>
                 </button>
             </div>
+
         </section>
     )
 }
