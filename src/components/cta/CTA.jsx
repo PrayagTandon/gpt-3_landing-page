@@ -3,7 +3,7 @@ import './cta.scss';
 
 const CTA = () => {
     return (
-        <section className='gpt3__cta'>
+        <section className='gpt3__cta' id='cta'>
             <div className='gpt3__cta-content'>
 
                 <p>Request Early Access to Get Started</p>
