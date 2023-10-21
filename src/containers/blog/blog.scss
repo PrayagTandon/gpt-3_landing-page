@@ -1,2 +1,12 @@
 @import '../../styles/mixins';
 @import '../../styles/variables';
+
+.gpt3__blog {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    &-heading {
+        width: 100%;
+    }
+}
