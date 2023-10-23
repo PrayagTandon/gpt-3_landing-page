@@ -13,12 +13,12 @@ const Article = ({ imgURL, date, title }) => {
             <div className='gpt3__blog-container_article-content'>
                 <p>{date}</p>
                 <h3>{title}</h3>
-            </div>
 
-            <div className='gpt3__blog-container_article-content_btn'>
-                <button className='btn__article'>
-                    <a href="#cta">Read full article</a>
-                </button>
+                <div className='gpt3__blog-container_article-content_btn'>
+                    <button className='btn__article'>
+                        <a href="#cta">Read full article</a>
+                    </button>
+                </div>
             </div>
 
         </section>
