@@ -1,2 +1,21 @@
 @import '../../styles/mixins';
 @import '../../styles/variables';
+
+.gpt3__footer {
+    border: 1px solid whitesmoke;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: $color-footer;
+
+    &-heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+
+        .heading__footer {}
+    }
+}
