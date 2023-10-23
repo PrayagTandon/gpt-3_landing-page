@@ -24,59 +24,57 @@ const Footer = () => {
                         src={gpt3Logo}
                         alt="brand logo" />
 
-                    <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+                    <p> &#169; All Rights Reserved</p>
                 </div>
 
                 <div className='gpt3__footer-links_div'>
-                    <div>
-                        <h4>Links</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Overons </a>
-                            </li>
-                            <li>
-                                <a href="#">Social Media</a>
-                            </li>
-                            <li>
-                                <a href="#">Counters </a>
-                            </li>
-                            <li>
-                                <a href="#">Contact </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4>Company</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Terms & Conditions </a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4>Get in Touch</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Pune, Maharashtra </a>
-                            </li>
-                            <li>
-                                <a href="#">Work.prayagt@gmail.com</a>
-                            </li>
-                            <li>
-                                <a href="#">https://www.linkedin.com/in/prayag-tandon/</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <h4>Links</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Overons </a>
+                        </li>
+                        <li>
+                            <a href="#">Social Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Counters </a>
+                        </li>
+                        <li>
+                            <a href="#">Contact </a>
+                        </li>
+                    </ul>
                 </div>
 
+                <div className='gpt3__footer-links_div'>
+                    <h4>Company</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Terms & Conditions </a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className='gpt3__footer-links_div'>
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li>
+                            <a href="#" type='address'>Pune, Maharashtra </a>
+                        </li>
+                        <li>
+                            <a href="#" type='email'>Work.prayagt@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="http://https://www.linkedin.com/in/prayag-tandon/" target='_blank'>https://www.linkedin.com/in/prayag-tandon/
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </footer>
