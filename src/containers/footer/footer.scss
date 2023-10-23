@@ -33,7 +33,7 @@
             border: 1px solid $color-white;
             color: $color-white;
             outline: none;
-            padding: 1.5rem;
+            padding: 1.2rem;
             background: transparent;
             font-weight: 500;
             transition: $transition--sm;
@@ -53,5 +53,12 @@
                 transform: translateY(-.1rem);
             }
         }
+    }
+
+    &-links {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(15rem, 1fr));
+        grid-template-rows: 1fr;
+        gap: 1.5rem;
     }
 }
