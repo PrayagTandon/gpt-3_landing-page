@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.scss'
 import './cta.scss';
 
 const CTA = () => {
@@ -12,7 +13,7 @@ const CTA = () => {
             </div>
 
             <div className='gpt3__cta-button'>
-                <button type="button">Get Started</button>
+                <button type="button" className='btn__black'>Get Started</button>
             </div>
         </section>
     )
