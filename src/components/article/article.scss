@@ -44,6 +44,11 @@
             line-height: 1.875rem;
             transition: $transition--sm;
 
+            @include respond-to('2xl') {
+                font-size: 1.3rem;
+                line-height: 1.6rem;
+            }
+
             &:hover {
                 cursor: pointer;
                 text-decoration: underline;
@@ -52,9 +57,15 @@
     }
 }
 
-// .gpt3__blog-container_article-content_btn {}
+.btn--2 {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: .1rem;
+    transition: $transition--sm;
 
-// .gpt3__blog-container_article-content h3:hover .gpt3__blog-container_article-content_btn {
-//     display: flex;
-//     transform: translateX(100%);
-// }
+    &:hover {
+        border-bottom: 1px solid rgba($color-text , .7);
+        color: rgba($color-text , .7);
+    }
+}

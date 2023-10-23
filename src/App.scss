@@ -168,11 +168,6 @@ a {
   min-width: 9.375rem;
   transition: $transition--sm;
 
-  &--2 {
-    background: $color-white;
-    color: $color-black;
-  }
-
   @include respond-to('sm') {
     padding: .5rem 1rem;
     font-size: 1rem;

@@ -17,7 +17,7 @@ const Article = ({ imgURL, date, title }) => {
                 </div>
 
                 <div className='gpt3__blog-container_article-content_btn'>
-                    <button className='btn__black btn__black--2'>
+                    <button className='paragraph__component--blue btn--2'>
                         <a href="#cta">Read full article</a>
                     </button>
                 </div>
