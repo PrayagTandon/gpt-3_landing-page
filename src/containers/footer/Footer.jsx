@@ -64,13 +64,13 @@ const Footer = () => {
                     <h4>Get in Touch</h4>
                     <ul>
                         <li>
-                            <a href="#" type='address'>Pune, Maharashtra </a>
+                            <a href="#" >Pune, Maharashtra </a>
                         </li>
                         <li>
-                            <a href="#" type='email'>Work.prayagt@gmail.com</a>
+                            <a href="#">work.prayagt@gmail.com</a>
                         </li>
                         <li>
-                            <a href="http://https://www.linkedin.com/in/prayag-tandon/" target='_blank'>https://www.linkedin.com/in/prayag-tandon/
+                            <a href="#" target='_blank'>LinkedIn
                             </a>
                         </li>
                     </ul>
