@@ -63,8 +63,19 @@
             grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
             grid-template-rows: 1fr;
             gap: 4rem;
-            // justify-content: space-between;
-            // align-items: center;
+            align-items: start;
+        }
+
+        &_logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 1.5rem;
+
+            img {
+                width: 7.375rem;
+                height: 1.875rem;
+            }
         }
     }
 }
