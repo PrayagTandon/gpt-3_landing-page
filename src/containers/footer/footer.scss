@@ -2,7 +2,6 @@
 @import '../../styles/variables';
 
 .gpt3__footer {
-    border: 1px solid whitesmoke;
     color: $color-white;
     display: flex;
     flex-direction: column;
@@ -43,10 +42,6 @@
                 background: rgba($color-white , .9);
                 color: $color-footer;
                 transform: translateY(-.2rem);
-
-                a {
-                    text-decoration: underline;
-                }
             }
 
             &:active {
@@ -70,11 +65,48 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            gap: 1.5rem;
+            gap: 1rem;
 
             img {
                 width: 7.375rem;
                 height: 1.875rem;
+            }
+
+            p {
+                font-size: .75rem;
+                line-height: .875rem;
+            }
+        }
+
+        &_div {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            text-align: left;
+
+            h4 {
+                font-size: 1.5rem;
+                line-height: 1.6rem;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 1.2rem;
+                list-style: none;
+
+                li a {
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: rgba($color-white , .6);
+
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                        color: rgba($color-white , .5);
+                    }
+                }
             }
         }
     }
