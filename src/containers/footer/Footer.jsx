@@ -19,61 +19,64 @@ const Footer = () => {
             </div>
 
             <div className='gpt3__footer-links'>
-                <div className='gpt3__footer-links_logo'>
-                    <img
-                        src={gpt3Logo}
-                        alt="brand logo" />
+                <div className='links__container'>
+                    <div className='gpt3__footer-links_logo'>
+                        <img
+                            src={gpt3Logo}
+                            alt="brand logo" />
 
-                    <p> &#169; All Rights Reserved</p>
-                </div>
+                        <p> &#169; All Rights Reserved</p>
+                    </div>
 
-                <div className='gpt3__footer-links_div'>
-                    <h4>Links</h4>
-                    <ul>
-                        <li>
-                            <a href="#">Overons </a>
-                        </li>
-                        <li>
-                            <a href="#">Social Media</a>
-                        </li>
-                        <li>
-                            <a href="#">Counters </a>
-                        </li>
-                        <li>
-                            <a href="#">Contact </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div className='gpt3__footer-links_div'>
+                        <h4>Links</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Overons </a>
+                            </li>
+                            <li>
+                                <a href="#">Social Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Counters </a>
+                            </li>
+                            <li>
+                                <a href="#">Contact </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div className='gpt3__footer-links_div'>
-                    <h4>Company</h4>
-                    <ul>
-                        <li>
-                            <a href="#">Terms & Conditions </a>
-                        </li>
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div className='gpt3__footer-links_div'>
+                        <h4>Company</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Terms & Conditions </a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div className='gpt3__footer-links_div'>
-                    <h4>Get in Touch</h4>
-                    <ul>
-                        <li>
-                            <a href="#" >Pune, Maharashtra </a>
-                        </li>
-                        <li>
-                            <a href="#">work.prayagt@gmail.com</a>
-                        </li>
-                        <li>
-                            <a href="#" target='_blank'>LinkedIn
-                            </a>
-                        </li>
-                    </ul>
+                    <div className='gpt3__footer-links_div'>
+                        <h4>Get in Touch</h4>
+                        <ul>
+                            <li>
+                                <a href="#" >Pune, Maharashtra </a>
+                            </li>
+                            <li>
+                                <a href="#">work.prayagt@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#" target='_blank'>LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 

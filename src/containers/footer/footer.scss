@@ -56,9 +56,15 @@
     }
 
     &-links {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(15rem, 1fr));
-        grid-template-rows: 1fr;
-        gap: 1.5rem;
+        min-width: 100%;
+
+        .links__container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+            grid-template-rows: 1fr;
+            gap: 4rem;
+            // justify-content: space-between;
+            // align-items: center;
+        }
     }
 }
