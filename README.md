@@ -1,6 +1,6 @@
-# Nike landing page with Tailwind CSS
+# Open AI landing page
 
-Build a Beautiful Landing page for a Shoe website using Tailwind CSS, ReactJS and Vite.
+Build a Beautiful Landing page for an AI website using SCSS and ReactJS.
 
 ## Table of contents
 
@@ -27,28 +27,27 @@ Build a Beautiful Landing page for a Shoe website using Tailwind CSS, ReactJS an
 
 ### Links
 
-- Solution URL: [Solution on Github](https://github.com/PrayagTandon/Nike-LandingPage)
-- Live Site URL: [Live site](https://nike-landing-prayag.netlify.app/)
+- Solution URL: [Solution on Github](https://github.com/PrayagTandon/gpt-3_landing-page)
+- Live Site URL: [Live site](https://openai-ui-prayag.netlify.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - Used modern HTML5 elements such as Main and Aside instead of generic Div
-- Tailwind CSS as a CSS framework
-- ReactJS for using reusable components
-- Vite for making development easier
+- SCSS as a CSS preprocessor
+- ReactJS for using reusable components and overall struture.
 
 ### What I learned
 
-- Developed a full landing page using Tailwind CSS and applied the concepts of Tailwind CSS.
-- Integrated Tailwind CSS with ReactJS for industry level approach to website development.
+- Developed a full landing page using SCSS and applied the concepts of SCSS.
+- Integrated SCSS with ReactJS for industry level approach to website development.
 
 ### Continued development
 
-- Developing skills to write more Fluent Tailwind and ReactJS code.
-- To make individual Shoe page that displays each shoe description.
-- Make a Add to cart option to add products to the cart alongwith the paymnet integration.
-- Make a responsive navbar.
+- Developing skills to write more Fluent ReactJS code.
+- To make individual Blog page that displays each Blog description.
+- Developing a functional CMS to make the Blog section Interactive.
+- Make a Sign Up option and authentication.
 
 ## Author
 
