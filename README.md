@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Nike landing page with Tailwind CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Build a Beautiful Landing page for a Shoe website using Tailwind CSS, ReactJS and Vite.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Developed a Nike Shoe website Landing page using ReactJS , ReactJS templates , Tailwind CSS and Vite.
+- Used Tailwind CSS as a CSS framework to write complex and Modern CSS with ease.
+- Integrated Tailwind CSS with ReactJS to make industry oriented approach for website development.
+- Managed the whole development using Vite which helped to create a basic template using ReactJS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![Project-section Screenshot](/screenshot/Homepage-screenshot.png)
+![Offers-section Screenshot](/screenshot/Offers-screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Solution URL: [Solution on Github](https://github.com/PrayagTandon/Nike-LandingPage)
+- Live Site URL: [Live site](https://nike-landing-prayag.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Semantic HTML5 markup
+- Used modern HTML5 elements such as Main and Aside instead of generic Div
+- Tailwind CSS as a CSS framework
+- ReactJS for using reusable components
+- Vite for making development easier
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What I learned
 
-### `npm run eject`
+- Developed a full landing page using Tailwind CSS and applied the concepts of Tailwind CSS.
+- Integrated Tailwind CSS with ReactJS for industry level approach to website development.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Continued development
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Developing skills to write more Fluent Tailwind and ReactJS code.
+- To make individual Shoe page that displays each shoe description.
+- Make a Add to cart option to add products to the cart alongwith the paymnet integration.
+- Make a responsive navbar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Github - [Prayag Tandon](https://github.com/PrayagTandon)
+- LinkedIn- [@PrayagTandon](https://www.linkedin.com/in/prayag-tandon/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Design inspiration from [@JavaScriptmastery](https://www.youtube.com/@javascriptmastery) Youtube channel.
