@@ -21,6 +21,11 @@
             line-height: 4.6875rem;
             letter-spacing: -2.48px;
             max-width: none;
+
+            @include respond-to('lg__2') {
+                font-size: 3.2rem;
+                line-height: 4rem;
+            }
         }
     }
 
