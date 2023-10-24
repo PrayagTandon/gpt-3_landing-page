@@ -14,15 +14,16 @@ Build a Beautiful Landing page for a Shoe website using Tailwind CSS, ReactJS an
 
 ## Overview
 
-- Developed a Nike Shoe website Landing page using ReactJS , ReactJS templates , Tailwind CSS and Vite.
-- Used Tailwind CSS as a CSS framework to write complex and Modern CSS with ease.
-- Integrated Tailwind CSS with ReactJS to make industry oriented approach for website development.
-- Managed the whole development using Vite which helped to create a basic template using ReactJS.
+- Developed a beautiful and responsive UI/UX landing page for a AI based website using ReactJS , ReactJS templates and SCSS.
+- Used SCSS as a CSS preprocessor, and made use of SCSS Mixins and Variable declaration to write beautiful and clean CSS code.
+- Integrated ReactJS with SCSS to make industry oriented approach for website development.
+- Layout the entire website using modern CSS layout features of Flex and Grid.
+- Added Animations by adding Keyframes for a beautiful and responsive navbar.
 
 ### Screenshot
 
-![Project-section Screenshot](/screenshot/Homepage-screenshot.png)
-![Offers-section Screenshot](/screenshot/Offers-screenshot.png)
+![Home-page Screenshot](/src/assets/Home-page-screenshot.png)
+![What is GPT3 Screenshot](/src/assets/WGPT3-screenshot.png)
 
 ### Links
 
