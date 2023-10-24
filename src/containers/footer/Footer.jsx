@@ -68,11 +68,13 @@ const Footer = () => {
                                 <a href="#" >Pune, Maharashtra </a>
                             </li>
                             <li>
-                                <a href="#">work.prayagt@gmail.com</a>
+                                <a href="mailto:work.prayagt@gmail.com" target='_blank'> Gmail</a>
                             </li>
                             <li>
-                                <a href="#" target='_blank'>LinkedIn
-                                </a>
+                                <a href="http://linkedin.com/in/prayag-tandon/" target='_blank'>LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/PrayagTandon/" target='_blank'>GitHub</a>
                             </li>
                         </ul>
                     </div>
